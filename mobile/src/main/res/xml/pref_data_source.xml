@@ -17,7 +17,7 @@
             android:defaultValue="https://Jasper4242.azurewebsites.net"/>
          <EditTextPreference
             android:dependency="nightscout_poll"
-            android:key="dex_collection_method"
+            android:key="dex_collection_method2"
             android:title="Nightscout URL 2"
             android:summary="URL for your nightscout site 2"
             android:defaultValue="https://Jasmine4242.azurewebsites.net"/>
