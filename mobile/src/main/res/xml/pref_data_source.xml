@@ -8,13 +8,19 @@
             android:key="nightscout_poll"
             android:title="Read from NightScout"
             android:summary="If you are already sending values to nightscout, choose this option."
-            android:defaultValue="false" />
+            android:defaultValue="True" />
         <EditTextPreference
             android:dependency="nightscout_poll"
             android:key="dex_collection_method"
-            android:title="Nightscout URL"
-            android:summary="URL for your nightscout site"
-            android:defaultValue="https://{yoursite}.azurewebsites.net"/>
+            android:title="Nightscout URL 1"
+            android:summary="URL for your nightscout site 1"
+            android:defaultValue="https://Jasper4242.azurewebsites.net"/>
+         <EditTextPreference
+            android:dependency="nightscout_poll"
+            android:key="dex_collection_method"
+            android:title="Nightscout URL 2"
+            android:summary="URL for your nightscout site 2"
+            android:defaultValue="https://Jasmine4242.azurewebsites.net"/>
 
         <CheckBoxPreference
             android:key="share_poll"
