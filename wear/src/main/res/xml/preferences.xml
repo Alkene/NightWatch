@@ -11,7 +11,7 @@
         android:key="dark" />
 
         <CheckBoxPreference android:title="Show Raw"
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:summary="Show Raw."
             android:key="showRaw" />
 
